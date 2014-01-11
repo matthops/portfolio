@@ -1,0 +1,193 @@
+
+body
+{
+background-image:url('https://scontent-a-lax.xx.fbcdn.net/hphotos-prn1/996697_10152155578439789_818031286_n.jpg');
+background-color:#cccccc;
+/*background-repeat:no-repeat;*/
+/*background-size:cover;*/ /*for a better landscape image*/
+background-size: 50%;
+background-attachment:fixed;
+}
+
+#container {
+ /* margin: 20px auto;*/
+ margin-left: 70%;
+  padding-bottom: 50%;
+  margin-top:5%;
+  background-color: rgba(0,0,0, .50); 
+  width: 30%;
+  text-align: left;
+/*  box-shadow: 0 0 10px white;*/
+}
+
+.social {
+	float:right;
+	margin:10px;
+}
+#position {
+	padding: 10px;
+	text-align:right;
+	font-size: 2em;
+}
+
+#about {
+	text-align:left;
+	padding-top:30px;
+	margin-top:20px;
+}
+
+h1 {
+	font-family: 'Poiret One', cursive;
+	font-size: 10em;
+	color:#F5F5F5;
+	margin-bottom:-15px;
+	text-align:right;
+	}
+
+.email {
+	border: 1px solid #666;
+	padding:5px;
+	background-color:#dcdcdc;
+	color:black;
+	text-decoration:none;
+	font-size:2em;
+	font-family: 'Poiret One', cursive;
+	float:right;
+}
+
+.facebook {
+	border: 1px solid #666;
+	padding:5px;
+	background-color:#dcdcdc;
+	color:black;
+	text-decoration:none;
+	font-size:2em;
+	font-family: 'Poiret One', cursive;
+	float:right;
+}
+
+.linkedin {
+	border: 1px solid #666;
+	padding:5px;
+	background-color:#dcdcdc;
+	color:black;
+	text-decoration:none;
+	font-size:2em;
+	font-family: 'Poiret One', cursive;
+	float:right;
+}
+.twitter {
+	border: 1px solid #666;
+	padding:5px;
+	background-color:#dcdcdc;
+	color:black;
+	text-decoration:none;
+	font-size:2em;
+	font-family: 'Poiret One', cursive;
+	float:right;
+}
+
+h2 {
+	font-family: 'Poiret One', cursive;
+	font-size: 3em;
+	color:#F5F5F5;
+}
+
+p {
+	font-family: 'Poiret One', cursive;
+	font-size: 2em;
+	color:#F5F5F5;
+	padding-left:30px;
+}
+
+
+/*#ribbon {
+	height: 220;
+	width: 635;
+	background: #518296;
+}
+
+#solid {
+	opacity:5;
+}
+
+.float {
+  background: blue;
+  height: 300px;
+}
+
+div {
+	display:block;
+}
+*/
+
+
+/*Media Queries*/
+
+/*#media-query {
+  padding: 20px;
+}
+
+#media-query h1 {
+  font-size: 30px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+#media-query p {
+  font-size: 13px;
+  line-height: 1.5em;
+}
+
+@media screen and (min-width: 569px) and (max-width: 1024px) {
+
+  #media-query {
+    padding: 40px;
+  }
+
+  #media-query h1 {
+    font-size: 40px;
+    margin-bottom: 30px;*/
+  }
+
+}/* Closing Media Query */
+/*
+@media screen and (min-width: 1025px) {
+  #media-query {
+    padding: 80px;
+  }
+
+  #media-query h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+  }
+}*/
+
+/********************************/
+/* Box Model ********************/
+/********************************/
+
+/*.col {
+  background: #333;
+  color: #fff;
+  padding: 40px;
+  border: 5px solid #ccc;
+  width: 25%;
+  height: 100px;
+  float: left;
+}
+
+#box-model, #box-sizing {
+  padding: 20px;
+}
+
+#box-model:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+#box-sizing .col {
+  box-sizing: border-box;
+}*/
+
