@@ -2,32 +2,44 @@
 body
 {
 background-image:url('https://scontent-a-lax.xx.fbcdn.net/hphotos-prn1/996697_10152155578439789_818031286_n.jpg');
+
+/*background-image: url("/Headshot.jpg");*/
 background-color:#cccccc;
-/*background-repeat:no-repeat;*/
-/*background-size:cover;*/ /*for a better landscape image*/
 background-size: 50%;
 background-attachment:fixed;
 }
 
 #container {
- /* margin: 20px auto;*/
- margin-left: 70%;
+ margin-right: 2%;
   padding-bottom: 50%;
   margin-top:5%;
   background-color: rgba(0,0,0, .50); 
   width: 30%;
   text-align: left;
-/*  box-shadow: 0 0 10px white;*/
+  min-width: 230px;
+  display:block;
+  float:right;
 }
 
 .social {
 	float:right;
 	margin:10px;
 }
+.social>a {
+	border: 1px solid #666;
+	padding:5px;
+	background-color:#dcdcdc;
+	color:black;
+	text-decoration:none;
+	font-size:.75em;
+	font-family: 'Poiret One', cursive;
+	float:right;
+}
+
 #position {
 	padding: 10px;
 	text-align:right;
-	font-size: 2em;
+	font-size: 1em;
 }
 
 #about {
@@ -38,54 +50,11 @@ background-attachment:fixed;
 
 h1 {
 	font-family: 'Poiret One', cursive;
-	font-size: 10em;
+	font-size: 5em;
 	color:#F5F5F5;
 	margin-bottom:-15px;
 	text-align:right;
 	}
-
-.email {
-	border: 1px solid #666;
-	padding:5px;
-	background-color:#dcdcdc;
-	color:black;
-	text-decoration:none;
-	font-size:2em;
-	font-family: 'Poiret One', cursive;
-	float:right;
-}
-
-.facebook {
-	border: 1px solid #666;
-	padding:5px;
-	background-color:#dcdcdc;
-	color:black;
-	text-decoration:none;
-	font-size:2em;
-	font-family: 'Poiret One', cursive;
-	float:right;
-}
-
-.linkedin {
-	border: 1px solid #666;
-	padding:5px;
-	background-color:#dcdcdc;
-	color:black;
-	text-decoration:none;
-	font-size:2em;
-	font-family: 'Poiret One', cursive;
-	float:right;
-}
-.twitter {
-	border: 1px solid #666;
-	padding:5px;
-	background-color:#dcdcdc;
-	color:black;
-	text-decoration:none;
-	font-size:2em;
-	font-family: 'Poiret One', cursive;
-	float:right;
-}
 
 h2 {
 	font-family: 'Poiret One', cursive;
@@ -95,11 +64,21 @@ h2 {
 
 p {
 	font-family: 'Poiret One', cursive;
-	font-size: 2em;
+	font-size:1em;
 	color:#F5F5F5;
 	padding-left:30px;
 }
 
+@media screen and (max-width: 900px) {
+
+	body {
+	background-size: cover;
+	background-attachment:fixed;
+	}
+h1 {
+	font-size: 4em;
+	}	
+}
 
 /*#ribbon {
 	height: 220;
@@ -122,46 +101,7 @@ div {
 */
 
 
-/*Media Queries*/
 
-/*#media-query {
-  padding: 20px;
-}
-
-#media-query h1 {
-  font-size: 30px;
-  font-weight: 200;
-  margin-bottom: 20px;
-}
-
-#media-query p {
-  font-size: 13px;
-  line-height: 1.5em;
-}
-
-@media screen and (min-width: 569px) and (max-width: 1024px) {
-
-  #media-query {
-    padding: 40px;
-  }
-
-  #media-query h1 {
-    font-size: 40px;
-    margin-bottom: 30px;*/
-  }
-
-}/* Closing Media Query */
-/*
-@media screen and (min-width: 1025px) {
-  #media-query {
-    padding: 80px;
-  }
-
-  #media-query h1 {
-    font-size: 60px;
-    margin-bottom: 30px;
-  }
-}*/
 
 /********************************/
 /* Box Model ********************/
