@@ -170,7 +170,6 @@ p {
 
   #projectImg {
     object-fit: contain;
-    height: auto;
     width: 100%;
   }
 
