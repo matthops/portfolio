@@ -1,83 +1,167 @@
-
-body
-{
-background-image:url('https://scontent-a-lax.xx.fbcdn.net/hphotos-prn1/996697_10152155578439789_818031286_n.jpg');
-
-/*background-image: url("/Headshot.jpg");*/
-background-color:#cccccc;
-background-size: 50%;
-background-attachment:fixed;
+body {
+  /* background-image: url('/Users/matthopkins/dev/portfolio/Headshot.jpg');
+  background-size: cover; */
+  background-color: #fbfbfb;
+  background-attachment: fixed;
+  margin: 0;
 }
 
-#container {
- margin-right: 2%;
-  padding-bottom: 50%;
-  margin-top:5%;
-  background-color: rgba(0,0,0, .50); 
-  width: 30%;
-  text-align: left;
-  min-width: 230px;
-  display:block;
-  float:right;
+header {
+  height: 150px;
 }
 
-.social {
-	float:right;
-	margin:10px;
-}
-.social>a {
-	border: 1px solid #666;
-	padding:5px;
-	background-color:#dcdcdc;
-	color:black;
-	text-decoration:none;
-	font-size:.75em;
-	font-family: 'Poiret One', cursive;
-	float:right;
+.title {
+  font-family: 'Raleway', sans-serif;
+  height: 75px;
+  font-size: 3em;
+  color: rgba(255, 255, 255, 0.7);
+  padding-left: 4%;
+  padding-top: 50px;
+  font-weight: 600;
+  min-width: 340px;
 }
 
-#position {
-	padding: 10px;
-	text-align:right;
-	font-size: 1em;
+.projectTitle {
+  font-family: 'Raleway', sans-serif;
+  height: 75px;
+  width: 400px;
+  font-size: 3em;
+  color: #272e37;
+  padding-top: 4%;
+  padding-left: 5%;
+  font-weight: 600;
 }
 
-#about {
-	text-align:left;
-	padding-top:30px;
-	margin-top:20px;
+.topBar {
+  display: flex;
+  /* background-color: #0984e3; */
+  background-color: #636e72;
+  margin: 0;
+  height: 200px;
+  justify-content: space-between;
 }
 
-h1 {
-	font-family: 'Poiret One', cursive;
-	font-size: 5em;
-	color:#F5F5F5;
-	margin-bottom:-15px;
-	text-align:right;
-	}
+.menuRightContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: 'Raleway', sans-serif;
+  height: 75px;
+  width: 250px;
+  font-size: 1.35em;
+  padding-right: 6%;
+  padding-top: 3.25%;
+}
 
-h2 {
-	font-family: 'Poiret One', cursive;
-	font-size: 3em;
-	color:#F5F5F5;
+.contactButton {
+  background-color: black;
+  border-radius: 5px;
+  padding: 4% 10% 4% 10%;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.intro {
+  width: 100%;
+  height: 350px;
+  background: #636e72;
+  text-align: center;
+}
+
+.centerIntro {
+  width: 95%;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.introText {
+  font-family: 'Raleway', sans-serif;
+  font-size: 70px;
+  font-weight: 600;
+  color: #fff;
+  padding-top: 80px;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.projects {
+  padding: 50px;
+}
+
+#projectImg {
+  width: 500px;
+}
+
+.wrap {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
 }
 
 p {
-	font-family: 'Poiret One', cursive;
-	font-size:1em;
-	color:#F5F5F5;
-	padding-left:30px;
+  font-family: sans-serif;
+  font-size: 1em;
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 5.2%;
+}
+
+#container {
+  margin-right: 2%;
+  padding-bottom: 50%;
+  margin-top: 5%;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 30%;
+  text-align: left;
+  min-width: 230px;
+  display: block;
+  float: right;
+}
+
+.social {
+  float: right;
+  margin: 10px;
+}
+.social > a {
+  border: 1px solid #666;
+  padding: 5px;
+  background-color: #dcdcdc;
+  color: black;
+  text-decoration: none;
+  font-size: 0.75em;
+  font-family: 'Raleway', sans-serif;
+  float: right;
+}
+
+#position {
+  padding: 10px;
+  text-align: right;
+  font-size: 1em;
+}
+
+#about {
+  text-align: left;
+  padding-top: 30px;
+  margin-top: 20px;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3em;
+  color: #f5f5f5;
 }
 
 @media screen and (max-width: 900px) {
-
-	body {
-	background-size: cover;
-	background-attachment:fixed;
-	}
-h1 {
-	font-size: 4em;
-	}	
+  body {
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  h1 {
+    font-size: 4em;
+  }
 }
 
 /*#ribbon {
@@ -99,9 +183,6 @@ div {
 	display:block;
 }
 */
-
-
-
 
 /********************************/
 /* Box Model ********************/
@@ -130,4 +211,3 @@ div {
 #box-sizing .col {
   box-sizing: border-box;
 }*/
-
