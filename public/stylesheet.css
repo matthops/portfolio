@@ -89,6 +89,7 @@ header {
 }
 
 #projectImg {
+  height: auto;
   width: 500px;
 }
 
@@ -168,11 +169,13 @@ p {
   }
 
   #projectImg {
-    max-width: 100%;
+    object-fit: contain;
+    height: auto;
+    width: 100%;
   }
 
   p {
-    width: 200px;
+    width: 90%;
   }
 
   .wrap {
