@@ -73,6 +73,7 @@ header {
   height: 350px;
   background: #636e72;
   text-align: center;
+  overflow: hidden;
 }
 
 .centerIntro {
@@ -91,6 +92,7 @@ header {
 
 #projects {
   padding: 50px;
+  overflow: hidden;
 }
 
 #projectImg {
