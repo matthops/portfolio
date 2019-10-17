@@ -169,6 +169,7 @@ p {
 
   #projectImg {
     width: 90%;
+    object-fit: cover;
   }
 
   p {
